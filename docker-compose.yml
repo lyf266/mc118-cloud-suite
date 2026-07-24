@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mc118:
+    image: itzg/minecraft-server:java17
+    container_name: mc118
+    restart: unless-stopped
+    ports:
+      - '25565:25565'
+    environment:
+      EULA: 'TRUE'
+      TYPE: 'PAPER'
+      VERSION: '1.18.1'
+      MEMORY: '1200M'
+      ONLINE_MODE: 'FALSE'
+      MOTD: '§e§l24h修仙/挖矿疗养院'
+      VIEW_DISTANCE: '4'
+      SIMULATION_DISTANCE: '3'
+    volumes:
+      - ./data:/data
