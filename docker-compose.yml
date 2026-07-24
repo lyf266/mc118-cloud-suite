@@ -13,7 +13,7 @@ services:
       VERSION: '1.18.1'
       MEMORY: '1200M'
       ONLINE_MODE: 'FALSE'
-      MOTD: '§e§l24h修仙/挖矿疗养院'
+      MOTD: '§e§l24h休闲生存'
       VIEW_DISTANCE: '4'
       SIMULATION_DISTANCE: '3'
     volumes:
