@@ -1,0 +1,14 @@
+[
+  {
+    uuid: 87723d74-66a8-3179-90a7-0266b2411bbf,
+    name: Fei_fei,
+    level: 4,
+    bypassesPlayerLimit: false
+  },
+  {
+    uuid: 9f89f966-ba44-3ec6-8b08-95ebf27dc91b,
+    name: le_le,
+    level: 4,
+    bypassesPlayerLimit: false
+  }
+]
